@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Akshat Verma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <div>
+      <div class="night" id="night">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <div class="clouds"></div>
+    </div>
+      <div class="form-container">
+        <div class="progress-bar">
+          <div id="progress" class="progress"></div>
+        </div>
+        <form id="regForm" action="">
+          <h1>User Details:</h1>
+          <div class="tab" >
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="Name" placeholder="Enter your full name" />
+              <span id="name-error" class="error-message"></span>
+          </p>
+          <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="Dob" placeholder="Date of Birth" />
+            <span id="dob-error" class="error-message"></span>
+        </p>
+        <p>
+          <label for="gender">Gender</label>
+          <select id="gender" required aria-placeholder="Gender" name="Gender">
+            <option value="" selected disabled>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+          </select>
+          <span id="gender-error" class="error-message"></span>
+      </p>
+          </div>
+          <div class="tab">
+              <p>
+                <label for="email">E-mail Address:</label>
+                <input type="text" id="email" name="EMail" placeholder="Enter your email" />
+                <span id="email-error" class="error-message"></span>
+            </p>
+            <p>
+              <label for="address">Address:</label>
+              <input type="text" id="address" name="Address" placeholder="Enter your address" />
+              <span id="address-error" class="error-message"></span>
+          </p>
+          <p>
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" maxlength="10" name="Contact" placeholder="Contact Number" />
+            <span id="contact-error" class="error-message"></span>
+        </p>
+          </div>
+
+          <div class="tab">
+          </div>
+
+          <div class="btn-container">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
