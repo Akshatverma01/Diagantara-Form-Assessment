@@ -14,7 +14,7 @@ JavaScript File: script.js – Contains the logic for the form’s navigation, v
 
 ## Running the project
 
-To run the project, simply open  ####index.html  in your web browser.
+To run the project, simply open  "index.html"  in your web browser.
 
 ## Form Structure
 
