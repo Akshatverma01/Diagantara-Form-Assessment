@@ -50,7 +50,7 @@ body {
   width: 70%;
   min-width: 300px;
   max-width: 500px;
-  height: 400px;
+  height: 100%;
   margin: 100px auto;
   padding: 40px;
   position: relative;
