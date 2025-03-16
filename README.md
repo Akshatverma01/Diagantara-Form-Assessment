@@ -16,6 +16,10 @@ JavaScript File: script.js – Contains the logic for the form’s navigation, v
 
 To run the project, simply open  "index.html"  in your web browser.
 
+## Demo :
+
+https://akshatverma01.github.io/Diagantara-Form-Assessment/
+
 ## Form Structure
 
 ### Step 1: User Details
