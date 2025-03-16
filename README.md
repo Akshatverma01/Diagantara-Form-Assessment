@@ -42,7 +42,7 @@ All fields are disabled for editing in this view.
 
 ## Key Features and Functions
 
-####showTab(n):
+#### showTab(n):
  Displays the tab corresponding to the index n. Hides all tabs and only shows the one selected.
 #### nextPrev(n):
  Moves to the next or previous tab. It checks validation before moving forward and updates the progress bar.
