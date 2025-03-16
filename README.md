@@ -17,6 +17,7 @@ JavaScript File: script.js – Contains the logic for the form’s navigation, v
 To run the project, simply open  "index.html"  in your web browser.
 
 ## Demo :
+![Screenshot (5)](https://github.com/user-attachments/assets/c542653a-c5d0-4947-aa5a-20149867eac6)
 
 https://akshatverma01.github.io/Diagantara-Form-Assessment/
 
@@ -64,4 +65,3 @@ To keep track of the filled tab of form.
 #### Local Storage Handling
  
 
-![Screenshot (5)](https://github.com/user-attachments/assets/c542653a-c5d0-4947-aa5a-20149867eac6)
